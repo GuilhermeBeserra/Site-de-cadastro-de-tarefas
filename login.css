@@ -14,7 +14,7 @@
         height: 30px;
         border-radius: 25px;
         display: flex;
-        
+        margin-top: -12px;
     }
 
  
@@ -28,7 +28,8 @@
         position: absolute;
         top: 0px;
     }
-    .botao1 {
+    
+    .botao1 { /*Esse é o botão de cadastro de tarefas*/
         font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
         position: absolute;
         top: 25px; /* Distância do topo */
@@ -44,7 +45,7 @@
 
 
 
-    .botao2 {
+    .botao2 { /*Esse é o botão de gerenciamento de tarefas*/
         font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
         position: absolute;
         top: 25px; /* Distância do topo */
@@ -58,19 +59,7 @@
         cursor: pointer;
     }
 
-    .botao3 {
-        font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
-        position: absolute;
-        top: 25px; /* Distância do topo */
-        right: 430px; /* Distância da direita */
-        padding: 12px 1px;
-        max-width: 200px;
-        background-color: #ffffff; /* Cor de fundo */
-        color: rgb(0, 0, 0); /* Cor do texto */
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
+    
       
 
         h1 {
