@@ -56,20 +56,43 @@ header {
     cursor: pointer;
 }
 
-h1 {
+h1 {/*Titulo Cadastro de Tarefas*/
             
     color: #050505;
-    margin-left: 30px;
+    margin-left: 35px;
     margin-bottom: 30px;
     margin-top: 150px;
+    width: 63%;
 }
 
-h2{
-    margin-left: -229px;
+h5{ /*Titulo Descrição*/
+    margin-left: -980px;
     margin-bottom: -60px;
-    margin-top: 229px;
+    margin-top: 270px;
 }
 
+.main-h2{/*Titulo Setor*/
+    color: #050505;
+    margin-left: -105px;
+    margin-bottom: 30px;
+    margin-top: 469px;
+}
+.main-h5 {/*Titulo prioridade*/
+            
+    color: #050505;
+    margin-left: -243px;
+    margin-bottom: 30px;
+    margin-top: 773px;
+}
+
+.main-h3 {/*Titulo Nome do usuario*/
+            
+    color: #050505;
+    margin-left: -55px;
+    margin-bottom: 30px;
+    margin-top: 620px;
+}
+/*
 label {
     color: #0c0c0a;
     display: block;
@@ -77,44 +100,88 @@ label {
     text-align: left;
     margin-left: -229px;
 }
+*/
 
-input {
+textarea{
     text-align: left;
-    width: 75%;
-    margin-left: 82px;
-    padding: 65px;
+    width: 20%;
+    margin-left: -180px;
+    padding: 1px;
+    height: 90px;
     border: 2px solid #050504;
     border-radius: 10px;
     background-color: #f2f5f9;
     color: #060404;
     margin-bottom: -229px;
-    margin-top: 280px;
+    margin-top: 320px;
 }
 
-/*input  {
+.input-setor{
     text-align: left;
-    width: 75%;
-    margin-left: 82px;
-    padding: 65px;
+    width: 20%;
+    height: 40px;
+    margin-left: -340px;
+    padding: 1px;
+    border: 2px solid #050504;
+    border-radius: 10px;
+    background-color: #f2f5f9;
+    color: #060404;
+    margin-bottom: -300px;
+    margin-top: 520px;
+}
+
+.input-usuario  {
+    text-align: left;
+    width: 20%;
+    margin-left: -335px;
+    height: 40px;
+    padding: 1px;
     border: 2px solid #050504;
     border-radius: 10px;
     background-color: #f2f5f9;
     color: #060404;
     margin-bottom: -229px;
-    margin-top: 100px;
+    margin-top: 670px;
 }
-    */
+    
 input::placeholder {
     color: #106ddf;
     
 }
 
 select{
-    width: 100%;
+    text-align: left;
+    width: 6%;
     padding: 10px;
-    margin-left: -300px;
-    margin-top: 500px;
+    margin-left: 30px;
+    margin-top: 765px;
     border: 1px solid #050504;
-    border-radius: 1px;
+    border-radius: 2px;
+    height: 40px;
+}
+
+.botao-enviar {
+    background-color: #4299e1;
+    color: #020202;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 10%;
+    display:block;
+    height: 50px;
+    margin-left: -255px;
+    margin-top: 880px;
+}
+
+button:hover {
+    background-color: #3ce4ea;
     
+}
+
+.container {
+    background-color: #106ddf;
+    width: 30%;
+    height: 250px;
+    margin-top: 0px;
 }
