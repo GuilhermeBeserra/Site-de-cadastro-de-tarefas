@@ -56,14 +56,14 @@ header {
     cursor: pointer;
 }
 
-.botao3 { /*Esse é o botão de gerenciamento de tarefas*/
+.botao3 { /*Esse é o botão de Login do Usuário*/
     font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
     position: absolute;
     top: 25px; /* Distância do topo */
-    margin-left: 830px; /* Distância da direita */
+    margin-left: 633px; /* Distância da direita */
     padding: 12px 1px;
     max-width: 200px;
-    width: 9%;
+    width: 12%;
     background-color: #ffffff; /* Cor de fundo */
     color: rgb(0, 0, 0); /* Cor do texto */
     border: none;
@@ -240,8 +240,8 @@ button:hover {
     background-color: #cdd6d5;
     width: 32%;
     height: 820px;
-    margin-top: 270px;
-    margin-left: -1050px;
+    margin-top: 240px;
+    margin-left: -920px;
     position: relative; /* Adiciona essa linha */
 }
 

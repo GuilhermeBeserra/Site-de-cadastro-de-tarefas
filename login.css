@@ -59,7 +59,20 @@
         cursor: pointer;
     }
 
-    
+    .botao3 { /*Esse é o botão de cadastro de usuario*/
+        font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
+        position: absolute;
+        top: 25px; /* Distância do topo */
+        margin-left: 875px; /* Distância da direita */
+        padding: 12px 10px;
+        max-width: 200px;
+        width: 15%;
+        background-color: #ffffff; /* Cor de fundo */
+        color: rgb(0, 0, 0); /* Cor do texto */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
       
 
         h1 {

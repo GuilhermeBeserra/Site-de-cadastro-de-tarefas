@@ -56,14 +56,14 @@ header {
     cursor: pointer;
 }
 
-.botao3 { /*Esse é o botão de gerenciamento de tarefas*/
+.botao3 { /*Esse é o botão de login do Usuário*/
     font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
     position: absolute;
     top: 25px; /* Distância do topo */
-    margin-left: 830px; /* Distância da direita */
+    margin-left: 630px; /* Distância da direita */
     padding: 12px 1px;
     max-width: 200px;
-    width: 9%;
+    width: 12%;
     background-color: #ffffff; /* Cor de fundo */
     color: rgb(0, 0, 0); /* Cor do texto */
     border: none;
@@ -81,23 +81,23 @@ h1 {/*Titulo Cadastro de Tarefas*/
 }
 
 h5{ /*Titulo Descrição*/
-    margin-left: -980px;
+    margin-left: -920px;
     margin-bottom: -60px;
-    margin-top: 270px;
+    margin-top: 240px;
 }
 
 .main-h2{/*Titulo Setor*/
     color: #050505;
     margin-left: -105px;
     margin-bottom: 30px;
-    margin-top: 469px;
+    margin-top: 410px;
 }
 .main-h5 {/*Titulo prioridade*/
             
     color: #050505;
-    margin-left: -243px;
+    margin-left: -190px;
     margin-bottom: 30px;
-    margin-top: 773px;
+    margin-top: 680px;
 }
 
 .main-h3 {/*Titulo Nome do usuario*/
@@ -105,7 +105,7 @@ h5{ /*Titulo Descrição*/
     color: #050505;
     margin-left: -55px;
     margin-bottom: 30px;
-    margin-top: 620px;
+    margin-top: 540px;
 }
 /*
 label {
@@ -128,27 +128,27 @@ textarea{
     background-color: #f2f5f9;
     color: #060404;
     margin-bottom: -229px;
-    margin-top: 320px;
+    margin-top: 280px;
 }
 
 .input-setor{
     text-align: left;
     width: 20%;
     height: 40px;
-    margin-left: -340px;
+    margin-left: -305px;
     padding: 1px;
     border: 2px solid #050504;
     border-radius: 10px;
     background-color: #f2f5f9;
     color: #060404;
     margin-bottom: -300px;
-    margin-top: 520px;
+    margin-top: 450px;
 }
 
 .select-user  {
     text-align: left;
     width: 20%;
-    margin-left: -241px;
+    margin-left: -235px;
     height: 40px;
     padding: 1px;
     border: 2px solid #050504;
@@ -156,7 +156,7 @@ textarea{
     background-color: #f2f5f9;
     color: #060404;
     margin-bottom: -229px;
-    margin-top: 670px;
+    margin-top: 580px;
 }
     
 input::placeholder {
@@ -169,7 +169,7 @@ select{
     width: 6%;
     padding: 10px;
     margin-left: 30px;
-    margin-top: 765px;
+    margin-top: 670px;
     border: 1px solid #050504;
     border-radius: 2px;
     height: 40px;
@@ -186,7 +186,7 @@ select{
     display:block;
     height: 50px;
     margin-left: -255px;
-    margin-top: 880px;
+    margin-top: 750px;
 }
 
 button:hover {
