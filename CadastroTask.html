@@ -21,25 +21,24 @@
             <div>
                 <a href="CadastroTask.html"><button class="botao1">Cadastro de Tarefas</button></a>
                 
-         
                 <a href="GerenciamentoTask.html"><button class="botao2">Gerenciamento de Tarefas</button></a>
+
+                <a href="login.html"><button class="botao3">Login do Usuário</button></a>
         
             </div>
         </div>
     </header>
-    
+    <form action="/enviar-dados" method="post"></form>
     <h1>Cadastro de Tarefas</h1>
     <h5>Descrição:</h5>
     <h5 class="main-h2">Setor:</h2>
     <h5 class="main-h3">Nome de Usuário:</h3>
         
-        <textarea></textarea>
+        <textarea placeholder="Digite sua Descrição"></textarea>
             
-        <input class="input-setor" type="text">
+        <input class="input-setor" type="text" placeholder="Digite seu Setor">
 
-           
-        <input class="input-usuario" type="text">
-        <button class="botao-enviar" type="submit">Enviar</button>
+        <button class="botao-enviar" type="submit">Cadastrar</button>
     
             
         
@@ -49,7 +48,13 @@
                 <option>Média</option>
                 <option>Baixa</option>
             </select>
-            
+
+            <select class="select-user" id="usuario">
+                <option>Yagho Maia</option>
+                <option>André Araújo</option>
+                <option>Ruan Vinicius</option>
+            </select>
+    </form>    
         
 </body>
 </html>

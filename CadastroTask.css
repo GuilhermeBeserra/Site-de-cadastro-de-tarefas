@@ -56,6 +56,21 @@ header {
     cursor: pointer;
 }
 
+.botao3 { /*Esse é o botão de gerenciamento de tarefas*/
+    font-family: 'Poppins', sans-serif; /* Aplicando a fonte Poppins */
+    position: absolute;
+    top: 25px; /* Distância do topo */
+    margin-left: 830px; /* Distância da direita */
+    padding: 12px 1px;
+    max-width: 200px;
+    width: 9%;
+    background-color: #ffffff; /* Cor de fundo */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 h1 {/*Titulo Cadastro de Tarefas*/
             
     color: #050505;
@@ -130,10 +145,10 @@ textarea{
     margin-top: 520px;
 }
 
-.input-usuario  {
+.select-user  {
     text-align: left;
     width: 20%;
-    margin-left: -335px;
+    margin-left: -241px;
     height: 40px;
     padding: 1px;
     border: 2px solid #050504;
@@ -145,7 +160,7 @@ textarea{
 }
     
 input::placeholder {
-    color: #106ddf;
+    color: #030404;
     
 }
 
@@ -179,9 +194,3 @@ button:hover {
     
 }
 
-.container {
-    background-color: #106ddf;
-    width: 30%;
-    height: 250px;
-    margin-top: 0px;
-}
